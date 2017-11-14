@@ -1,5 +1,14 @@
 body {
-    background-color: #121f1f
+    background-color: #111616;
+    color: #FFF;
+}
+
+img {
+   max-height: 70vh;
+   max-width: 70vw;
+   padding:1px;
+   border:1px solid #111616;
+   background-color:#FFF;
 }
 
 .main-title {
@@ -7,4 +16,47 @@ body {
     text-align: center;
     font-size: 3em;
     color: #FFF;
+    margin-bottom: 1em;
+}
+
+.entry_odd {
+    margin-left: 12vw;
+    margin-right: 12vw;
+}
+
+.header-description {
+    font-size: 5em;
+    letter-spacing: .1em;
+}
+
+.divider {
+    width: 5vw;
+    height: .5vh;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    background-color: #fff;
+}
+
+.item-description {
+    color: #e5e5e5;
+    font-size: 1.5em;
+}
+
+ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+    font-size: 1.5em;
+}
+li:before { 
+    content: "";
+    border-color: transparent #FFF;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
 }
