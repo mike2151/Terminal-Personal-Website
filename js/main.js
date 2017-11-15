@@ -1,6 +1,7 @@
 //initial populate
 generateHTML("all");
 
+
 //terminal code: http://terminal.jcubic.pl/
 jQuery(function($, undefined) {
    $('#terminal').terminal(function(command) {
@@ -16,13 +17,21 @@ jQuery(function($, undefined) {
         
 });
 
+$(function() {
+  $('#nav_to_content').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
+
+
+
 function generateHTML(keyword) {
     $.getJSON("https://raw.githubusercontent.com/mike2151/Terminal-Personal-Website/master/public/content.json", function(json) {
-        console.log(json[keyword].entry);
          $("#content").empty();
          $.tmpl( '<div class="entry_odd"> \
           <div class="col-md-6">\
-              <img src="' + json[keyword].entry.img + '">\
+              <img class="img-desc" src="' + json[keyword].entry.img + '">\
           </div>\
           <div class="col-md-6">\
               <div class="description">\
