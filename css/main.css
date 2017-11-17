@@ -14,6 +14,11 @@ body {
     width: 18em;
 }
 
+[class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
 .main-title {
     margin-top: 1em;
     text-align: center;
@@ -42,10 +47,22 @@ body {
    background-color:#FFF;
 }
 
+.img-desc:hover{ transform: translateY(-15px); } 
+
 .entry_odd {
     margin-left: 12vw;
     margin-right: 12vw;
+    overflow: hidden;
+    margin-bottom: 12vh;
 }
+
+.entry_even {
+    margin-left: 12vw;
+    margin-right: 12vw;
+    overflow: hidden; 
+    margin-bottom: 12vh;
+}
+
 
 .header-description {
     font-size: 5em;
