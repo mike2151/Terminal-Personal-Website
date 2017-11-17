@@ -1,13 +1,13 @@
 {
     "all": { 
-            "entry": {
+            "entry1": {
             "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Mr._Smiley_Face.svg/2000px-Mr._Smiley_Face.svg.png",
             "title": "header",
             "miniDescription": "Sub description",
             "description": "description"
         },
         
-        "entry": {
+        "entry2": {
             "img": "https://upload.wikimedia.org/wikipedia/commons/1/13/Facebook_like_thumb.png",
             "title": "header",
             "miniDescription": "Sub description",

@@ -28,6 +28,7 @@ $(function() {
 
 function generateHTML(keyword) {
     $.getJSON("https://raw.githubusercontent.com/mike2151/Terminal-Personal-Website/master/public/content.json", function(json) {
+         console.log(json);
          $("#content").empty();
          $.tmpl( '<div class="entry_odd"> \
           <div class="col-md-6">\
