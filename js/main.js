@@ -20,24 +20,7 @@ function generateHTML(keyword, title) {
                  {
                      listItems = listItems + '<li>' + json[keyword][entry].description[item] + '</li>';
                  }
-                 var templateString = '<div class="entry_even"> \
-              <div class="col-md-6">\
-                  <img class="img-desc" src="' + json[keyword][entry].img + '">\
-              </div> \
-              <div class="col-md-6">\
-                  <div class="description">\
-                    <h1 class="header-description">' + json[keyword][entry].title + '</h1>\
-                    <h3 class="sub-description">'+ json[keyword][entry].miniDescription + '</h3>\
-                    <div class="divider"></div>  \
-                    <p class="item-description">\
-                      <ul>\'
-                        + listItems +
-                      '</ul>  \
-                    </p>  \
-                  </div>\
-              </div>\
-              
-          </div>';
+                 var templateString = '<div class="entry_even"><div class="col-md-6"><img class="img-desc" src="' + json[keyword][entry].img + '"></div><div class="col-md-6"><div class="description"><h1 class="header-description">' + json[keyword][entry].title + '</h1><h3 class="sub-description">' + json[keyword][entry].miniDescription + '</h3><div class="divider"></div><p class="item-description"><ul>' + listItems + '</ul></p></div></div></div>';
                  
                  
                  $.tmpl(templateString , {}).appendTo( "#content" );
@@ -48,23 +31,7 @@ function generateHTML(keyword, title) {
                  {
                      listItems = listItems + '<li>' + json[keyword][entry].description[item] + '</li>';
                  }
-                 var templateString = '<div class="entry_even"> \
-              <div class="col-md-6">\
-                  <div class="description">\
-                    <h1 class="header-description">' + json[keyword][entry].title + '</h1>\
-                    <h3 class="sub-description">'+ json[keyword][entry].miniDescription + '</h3>\
-                    <div class="divider"></div>  \
-                    <p class="item-description">\
-                      <ul>\'
-                        + listItems +
-                      '</ul>  \
-                    </p>  \
-                  </div>\
-              </div>\
-              <div class="col-md-6">\
-                  <img class="img-desc" src="' + json[keyword][entry].img + '">\
-              </div>\
-          </div>';
+                 var templateString = '<div class="entry_even"><div class="col-md-6"><div class="description"><h1 class="header-description">' + json[keyword][entry].title + '</h1><h3 class="sub-description">' + json[keyword][entry].miniDescription + '</h3><div class="divider"></div><p class="item-description"><ul>' + listItems + '</ul></p></div></div><div class="col-md-6"><img class="img-desc" src="' + json[keyword][entry].img + '"></div></div>';
                  
                  
                  $.tmpl(templateString , {}).appendTo( "#content" );
@@ -142,24 +109,7 @@ function handleCommand(command) {
                  {
                      listItems = listItems + '<li>' + json[keyword][entry].description[item] + '</li>';
                  }
-                 var templateString = '<div class="entry_even"> \
-              <div class="col-md-6">\
-                  <img class="img-desc" src="' + json[keyword][entry].img + '">\
-              </div> \
-              <div class="col-md-6">\
-                  <div class="description">\
-                    <h1 class="header-description">' + json[keyword][entry].title + '</h1>\
-                    <h3 class="sub-description">'+ json[keyword][entry].miniDescription + '</h3>\
-                    <div class="divider"></div>  \
-                    <p class="item-description">\
-                      <ul>\'
-                        + listItems +
-                      '</ul>  \
-                    </p>  \
-                  </div>\
-              </div>\
-              
-          </div>';
+                 var templateString = '<div class="entry_even"><div class="col-md-6"><img class="img-desc" src="' + json[keyword][entry].img + '"></div><div class="col-md-6"><div class="description"><h1 class="header-description">' + json[keyword][entry].title + '</h1><h3 class="sub-description">' + json[keyword][entry].miniDescription + '</h3><div class="divider"></div><p class="item-description"><ul>' + listItems + '</ul></p></div></div></div>';
                  
                  
                  $.tmpl(templateString , {}).appendTo( "#content" );
@@ -171,23 +121,7 @@ function handleCommand(command) {
                  {
                      listItems = listItems + '<li>' + json[keyword][entry].description[item] + '</li>';
                  }
-                 var templateString = '<div class="entry_even"> \
-              <div class="col-md-6">\
-                  <div class="description">\
-                    <h1 class="header-description">' + json[keyword][entry].title + '</h1>\
-                    <h3 class="sub-description">'+ json[keyword][entry].miniDescription + '</h3>\
-                    <div class="divider"></div>  \
-                    <p class="item-description">\
-                      <ul>\'
-                        + listItems +
-                      '</ul>  \
-                    </p>  \
-                  </div>\
-              </div>\
-              <div class="col-md-6">\
-                  <img class="img-desc" src="' + json[keyword][entry].img + '">\
-              </div>\
-          </div>';
+                 var templateString = '<div class="entry_even"><div class="col-md-6"><div class="description"><h1 class="header-description">' + json[keyword][entry].title + '</h1><h3 class="sub-description">' + json[keyword][entry].miniDescription + '</h3><div class="divider"></div><p class="item-description"><ul>' + listItems + '</ul></p></div></div><div class="col-md-6"><img class="img-desc" src="' + json[keyword][entry].img + '"></div></div>';
                  
                  
                  $.tmpl(templateString , {}).appendTo( "#content" );
@@ -195,8 +129,7 @@ function handleCommand(command) {
              state_counter = state_counter + 1;
         }
          }
-      }
-    });
+      });
     }
     if (firstWord == "show") {
        generateHTML(command.split(" ")[1], command.split(" ")[1].toUpperCase());         

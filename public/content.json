@@ -4,7 +4,7 @@
             "img": "images/mnt.png",
             "title": "Jerome Fisher Program in Management and Technology at the University of Pennsylvania",
             "miniDescription": "2017-current",
-            "description": "Pursuing a B.S.E in Computer Science and a B.S in Economics"
+            "description": {"item": "Pursuing a B.S.E in Computer Science and a B.S in Economics"}
         },   
         
         "entry2": {
@@ -15,6 +15,155 @@
                 "item1": "Project: A Comparative Analysis of Various Security Applications for the Android  Operating System",  
                 "item2": "URL: http://ibimapublishing.com/articles/JIACS/2016/955268/"
             }
+        },
+        
+        "entry3": {
+            "img": "images/html.jpg",
+            "title": "HTML For Novices by Novices",
+            "miniDescription": "2015",
+            "description": {
+                 "item": "Introductory tutorial book for web programming in HTML", "item2": "Over 50,000 downloads", 
+"item3": "Spanish Translation also available", "item4": "More information: https://goo.gl/v0ISLs" }
+        },
+        
+        "entry4": {
+            "img": "images/ideation.jpg",
+            "title": "Mobile Application Ideation",
+            "miniDescription": "2017",
+            "description": {
+                 "item": "Book describing the art of generating successful mobile application ideas", "item2": "URL: https://www.amazon.com/dp/B075177K6M" }
+        },
+        "entry5": {
+            "img": "images/epa.png",
+            "title": "The President’s Environmental Youth Award",
+            "miniDescription": "2016",
+            "description": {
+                 "item": "Received national award from the Environmental Protection Agency for combating deforestation in the Pine Barrens with more efficient vertical greenhouses", "item2": "White House Blog: https://goo.gl/pVPk1k" }
+        },
+        "entry6": {
+            "img": "images/this.png",
+            "title": "Speaker at the June 2017 Holmdel Idea Summit",
+            "miniDescription": "2017",
+            "description": {
+                 "item": "Spoke about Claytronics and programmable matter to over 300 researchers, entrepreneurs, and engineers", "item2": "Event website: http://theholmdelideasummit.com" }
+        },
+        
+        "entry7": {
+            "img": "images/stockton.jpg",
+            "title": "2nd place in Computer Science at Jersey Shore Science Fair",
+            "miniDescription": "2015",
+            "description": {
+                 "item": "Spoke about Claytronics and programmable matter to over 300 researchers, entrepreneurs, and engineers", "item2": "Event website: http://theholmdelideasummit.com"}
+        },
+        
+        "entry8": {
+            "img": "images/tsa.png",
+            "title": "Technology Students of America State Conference 1st Place Webmaster Competitio",
+            "miniDescription": "2015",
+            "description": {
+                 "item": "Programmed website to raise awareness and offer solutions for electronic waste", "item2": "URL: http://dangersofewaste.byethost7.com"}
+        },
+        "entry9": {
+            "img": "images/android.png",
+            "title": "Android App Developer",
+            "miniDescription": "2014-present",
+            "description": {
+                 "item": "190,000+ cumulative downloads ", "item2": "Published over 20 Android Applications: https://goo.gl/23jdGk"}
+        },
+        
+        "entry10": {
+            "img": "images/windows.png",
+            "title": "Windows App Developer",
+            "miniDescription": "2014-present",
+            "description": {
+                 "item": "100,000+ cumulative downloads ", "item2": "Published over six applications", "item3": "All applications: https://goo.gl/MaqzMN"}
+        },
+        
+        "entry11": {
+            "img": "images/typemelee.png",
+            "title": "Type Melee",
+            "miniDescription": "2016-present",
+            "description": {
+                 "item": "http://typemelee.com", "item2": "Online competitive typing game"}
+        },
+        
+        "entry12": {
+            "img": "images/splendor.png",
+            "title": "Splendor Design Group",
+            "miniDescription": "Intern: 2017",
+            "description": {
+                 "item": "Worked with the WordPress platform and created webpages using HTML, CSS, JS, and PHP for client websites", "item2": "Learned and practiced search engine optimization techniques to get the company website to the first page of Google for popular search phrases: ”NJ web design” and “NJ logo design"}
+        },
+        
+        "entry13": {
+            "img": "images/redef.jpg",
+            "title": "Programming Tutorial YouTube Channel",
+            "miniDescription": "2015-present",
+            "description": {
+                 "item": "View at https://goo.gl/q76gzH", "item2": "Over 25 tutorials published on various languages"}
+        },
+        
+        "entry14": {
+            "img": "images/vv.png",
+            "title": "Processing Animations YouTube Channel",
+            "miniDescription": "2017-present",
+            "description": {
+                 "item": "View at https://goo.gl/aapPDQ", "item2": "Videos of my animations created in Processing"}
+        },
+        
+        "entry15": {
+            "img": "images/wormtraq.png",
+            "title": "WormTraq",
+            "miniDescription": "Creator: 2016-present",
+            "description": {
+                 "item": "View at http://wormtraq.herokuapp.com", "item2": "WormTraq is an open source online web application which is able to detect and measure Caenorhabditis elegans"}
+        },
+        
+        "entry16": {
+            "img": "images/btd.png",
+            "title": "By The Digits",
+            "miniDescription": "Creator: 2015-present",
+            "description": {
+                 "item": "Read more about it at http://www.bythedigits.com", "item2": "News website that searches the internet for news articles and refines them to remove the bias by only providing numbers and statistics"}
+        },
+        "entry17": {
+            "img": "images/stem.png",
+            "title": "Stem Scholar in the Governor’s Stem Scholars program",
+            "miniDescription": "2015-2016",
+            "description": {
+                 "item": "One of 60 students in New Jersey who toured New Jersey, learned about opportunities in science, technology, engineering, and mathematics, and communicated with state leaders in STEM.", "item2": "Article in The Monmouth Journal about my involvement in the program: https://goo.gl/Tt8u9F"}
+        },
+        
+        "entry18": {
+            "img": "images/pennlabs.png",
+            "title": "Penn Labs",
+            "miniDescription": "2017-present",
+            "description": {
+                 "item": "Club that develops software for the University of Pennsylvania ", "item2": "Android developer working on new features for Penn Mobile (an app that helps students manage campus life): https://goo.gl/LQ5r5p"}
+        },
+        
+        "entry19": {
+            "img": "images/pennapps.png",
+            "title": "Penn Apps",
+            "miniDescription": "2017-present",
+            "description": {
+                 "item": "Developer for Penn’s hackathon", "item2": "Created the application portal: https://my.pennapps.com", "item3": "Created the landing page for PennApps 17: http://2018w.pennapps.com"}
+        },
+        
+        "entry20": {
+            "img": "images/blockchain.png",
+            "title": "Penn Blockchain",
+            "miniDescription": "2017-present",
+            "description": {
+                 "item": "Club dedicated to learning about and developing programs for blockchain technologies", "item2": "Solidity developer for the Ethereum blockchain"}
+        },
+        
+        "entry21": {
+            "img": "images/code.jpg",
+            "title": "Programming Skills",
+            "miniDescription": "Proficient in the following languages/platforms:",
+            "description": {
+                 "item": " Python,Java,C++,Swift,Ruby,HTML,PHP,CSS,Javascript,Jquery,Processing, XML, MATLAB, OCaml"}
         }
     },
     
@@ -24,7 +173,7 @@
             "img": "images/mnt.png",
             "title": "Jerome Fisher Program in Management and Technology at the University of Pennsylvania",
             "miniDescription": "2017-current",
-            "description": "Pursuing a B.S.E in Computer Science and a B.S in Economics"
+            "description": {"item": "Pursuing a B.S.E in Computer Science and a B.S in Economics"}
         },
         
         "entry2": {
@@ -43,6 +192,176 @@
             "description": {
                 "item1": "Project: A Comparative Analysis of Various Security Applications for the Android  Operating System",  
                 "item2": "URL: http://ibimapublishing.com/articles/JIACS/2016/955268/"}
+        },
+        
+        "entry2": {
+            "img": "images/paper.png",
+            "title": "Journal of Agricultural Engineering and Biotechnology",
+            "miniDescription": "2015",
+            "description": {
+                "item1": "Project: The Application and Optimization of Metal Reflectors to Vertical Greenhouses to Increase Plant Growth and Health",  
+                "item2": "URL: http://www.bowenpublishing.com/jaeb/paperInfo.aspx?PaperID=16664"}
+        },
+        
+        "entry3": {
+            "img": "images/html.jpg",
+            "title": "HTML For Novices by Novices",
+            "miniDescription": "2015",
+            "description": {
+                 "item": "Introductory tutorial book for web programming in HTML", "item2": "Over 50,000 downloads", 
+"item3": "Spanish Translation also available", "item4": "More information: https://goo.gl/v0ISLs" }
+        },
+        
+        "entry4": {
+            "img": "images/ideation.jpg",
+            "title": "Mobile Application Ideation",
+            "miniDescription": "2017",
+            "description": {
+                 "item": "Book describing the art of generating successful mobile application ideas", "item2": "URL: https://www.amazon.com/dp/B075177K6M" }
+        }
+    },
+    
+    "awards": {
+        "entry5": {
+            "img": "images/epa.png",
+            "title": "The President’s Environmental Youth Award",
+            "miniDescription": "2016",
+            "description": {
+                 "item": "Received national award from the Environmental Protection Agency for combating deforestation in the Pine Barrens with more efficient vertical greenhouses", "item2": "White House Blog: https://goo.gl/pVPk1k" }
+        },
+        "entry6": {
+            "img": "images/this.png",
+            "title": "Speaker at the June 2017 Holmdel Idea Summit",
+            "miniDescription": "2017",
+            "description": {
+                 "item": "Spoke about Claytronics and programmable matter to over 300 researchers, entrepreneurs, and engineers", "item2": "Event website: http://theholmdelideasummit.com" }
+        },
+        
+        "entry7": {
+            "img": "images/stockton.jpg",
+            "title": "2nd place in Computer Science at Jersey Shore Science Fair",
+            "miniDescription": "2015",
+            "description": {
+                 "item": "Spoke about Claytronics and programmable matter to over 300 researchers, entrepreneurs, and engineers", "item2": "Event website: http://theholmdelideasummit.com"}
+        },
+        
+        "entry8": {
+            "img": "images/tsa.png",
+            "title": "Technology Students of America State Conference 1st Place Webmaster Competition",
+            "miniDescription": "2015",
+            "description": {
+                 "item": "Programmed website to raise awareness and offer solutions for electronic waste", "item2": "URL: http://dangersofewaste.byethost7.com"}
+        }
+        
+        
+    },
+    "programming": {
+        "entry9": {
+            "img": "images/android.png",
+            "title": "Android App Developer",
+            "miniDescription": "2014-present",
+            "description": {
+                 "item": "190,000+ cumulative downloads ", "item2": "Published over 20 Android Applications: https://goo.gl/23jdGk"}
+        },
+        
+        "entry10": {
+            "img": "images/windows.png",
+            "title": "Windows App Developer",
+            "miniDescription": "2014-present",
+            "description": {
+                 "item": "100,000+ cumulative downloads ", "item2": "Published over six applications", "item3": "All applications: https://goo.gl/MaqzMN"}
+        },
+        
+        "entry11": {
+            "img": "images/typemelee.png",
+            "title": "Type Melee",
+            "miniDescription": "2016-present",
+            "description": {
+                 "item": "http://typemelee.com", "item2": "Online competitive typing game"}
+        },
+        
+        "entry12": {
+            "img": "images/splendor.png",
+            "title": "Splendor Design Group",
+            "miniDescription": "Intern: 2017",
+            "description": {
+                 "item": "Worked with the WordPress platform and created webpages using HTML, CSS, JS, and PHP for client websites", "item2": "Learned and practiced search engine optimization techniques to get the company website to the first page of Google for popular search phrases: ”NJ web design” and “NJ logo design"}
+        },
+        
+        "entry13": {
+            "img": "images/redef.jpg",
+            "title": "Programming Tutorial YouTube Channel",
+            "miniDescription": "2015-present",
+            "description": {
+                 "item": "View at https://goo.gl/q76gzH", "item2": "Over 25 tutorials published on various languages"}
+        },
+        
+        "entry14": {
+            "img": "images/vv.png",
+            "title": "Processing Animations YouTube Channel",
+            "miniDescription": "2017-present",
+            "description": {
+                 "item": "View at https://goo.gl/aapPDQ", "item2": "Videos of my animations created in Processing"}
+        },
+        
+        "entry15": {
+            "img": "images/wormtraq.png",
+            "title": "WormTraq",
+            "miniDescription": "Creator: 2016-present",
+            "description": {
+                 "item": "View at http://wormtraq.herokuapp.com", "item2": "WormTraq is an open source online web application which is able to detect and measure Caenorhabditis elegans"}
+        },
+        
+        "entry16": {
+            "img": "images/btd.png",
+            "title": "By The Digits",
+            "miniDescription": "Creator: 2015-present",
+            "description": {
+                 "item": "Read more about it at http://www.bythedigits.com", "item2": "News website that searches the internet for news articles and refines them to remove the bias by only providing numbers and statistics"}
+        }
+        
+    },
+    "activities": {
+        "entry17": {
+            "img": "images/stem.png",
+            "title": "Stem Scholar in the Governor’s Stem Scholars program",
+            "miniDescription": "2015-2016",
+            "description": {
+                 "item": "One of 60 students in New Jersey who toured New Jersey, learned about opportunities in science, technology, engineering, and mathematics, and communicated with state leaders in STEM.", "item2": "Article in The Monmouth Journal about my involvement in the program: https://goo.gl/Tt8u9F"}
+        },
+        
+        "entry18": {
+            "img": "images/pennlabs.png",
+            "title": "Penn Labs",
+            "miniDescription": "2017-present",
+            "description": {
+                 "item": "Club that develops software for the University of Pennsylvania ", "item2": "Android developer working on new features for Penn Mobile (an app that helps students manage campus life): https://goo.gl/LQ5r5p"}
+        },
+        
+        "entry19": {
+            "img": "images/pennapps.png",
+            "title": "Penn Apps",
+            "miniDescription": "2017-present",
+            "description": {
+                 "item": "Developer for Penn’s hackathon", "item2": "Created the application portal: https://my.pennapps.com", "item3": "Created the landing page for PennApps 17: http://2018w.pennapps.com"}
+        },
+        
+        "entry20": {
+            "img": "images/blockchain.png",
+            "title": "Penn Blockchain",
+            "miniDescription": "2017-present",
+            "description": {
+                 "item": "Club dedicated to learning about and developing programs for blockchain technologies", "item2": "Solidity developer for the Ethereum blockchain"}
+        }
+    },
+    
+    "skills": {
+        "entry21": {
+            "img": "images/code.jpg",
+            "title": "Programming Skills",
+            "miniDescription": "Proficient in the following languages/platforms:",
+            "description": {
+                 "item": " Python,Java,C++,Swift,Ruby,HTML,PHP,CSS,Javascript,Jquery,Processing, XML, MATLAB, OCaml"}
         }
     }
 }
