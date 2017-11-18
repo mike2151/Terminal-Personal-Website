@@ -83,6 +83,7 @@ body {
 .header-description {
     font-size: 3em;
     letter-spacing: .1em;
+    word-wrap: break-word;
 }
 
 .divider {
