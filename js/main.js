@@ -53,7 +53,7 @@ jQuery(function($, undefined) {
 });
 
 function containsSubstrings(substrings, str) {
-    if (substrings.some(function(v) { return str.indexOf(v) >= 0; })) {
+    if (substrings.some(function(v) { return str.toString().toLowerCase().indexOf(v) >= 0; })) {
         return true;
     }
     return false;
@@ -119,9 +119,14 @@ function handleCommand(command) {
     }
     else if (command == "download resume")
     {
-        $.fileDownload('public/resume.pdf')
-        .done(function () { return "download successful"; })
-        .fail(function () { return "an error occured in downloading my resume" });
+        var win = window.open('public/resume.pdf', '_blank');
+        if (win) {
+            win.focus();
+            return "downloading resume..."
+        } else {
+            return ('Please allow popups for this website');
+        }
+        
     }
     else if (command == "reset")
     {
@@ -133,22 +138,22 @@ function handleCommand(command) {
     var firstWord = command.split(" ")[0];
     if (firstWord == "search") {
         
-        var removeSearch = command.substr(command.indexOf(" ") + 1);
-        var query = command.split(" ");
+        var removeSearch = command.substr(command.indexOf(" ") + 1).toLowerCase().replace('"', '');
+        var query = removeSearch.replace('"', '').split(" ");
         
         $.getJSON("https://raw.githubusercontent.com/mike2151/Terminal-Personal-Website/master/public/content.json", function(json) {
         $("#content").empty();
         $( "#content" ).append("<center><h1 class='content-title'>Search For: " + query + "</h1></center>");
          var state_counter = 0;
          for(var entry in json["all"]) {
-             if (containsSubstrings(query, json[keyword][entry].title) || containsSubstrings(query, json[keyword][entry].miniDescription) || containsSubstrings(query, json[keyword][entry].description)) {
+             if (containsSubstrings(query, json["all"][entry].title) || containsSubstrings(query, json["all"][entry].miniDescription) || containsSubstrings(query, json["all"][entry].description)) {
              if (state_counter % 2 == 0) {
                  var listItems = "";
-                 for (var item in json[keyword][entry].description)
+                 for (var item in json["all"][entry].description)
                  {
-                     listItems = listItems + '<li>' + json[keyword][entry].description[item] + '</li>';
+                     listItems = listItems + '<li>' + json["all"][entry].description[item] + '</li>';
                  }
-                 var templateString = '<div class="entry_even"><div class="col-md-6"><img class="img-desc" src="' + json[keyword][entry].img + '"></div><div class="col-md-6"><div class="description"><h1 class="header-description">' + json[keyword][entry].title + '</h1><h3 class="sub-description">' + json[keyword][entry].miniDescription + '</h3><div class="divider"></div><p class="item-description"><ul>' + listItems + '</ul></p></div></div></div>';
+                 var templateString = '<div class="entry_even"><div class="col-md-6"><img class="img-desc" src="' + json["all"][entry].img + '"></div><div class="col-md-6"><div class="description"><h1 class="header-description">' + json["all"][entry].title + '</h1><h3 class="sub-description">' + json["all"][entry].miniDescription + '</h3><div class="divider"></div><p class="item-description"><ul>' + listItems + '</ul></p></div></div></div>';
                  
                  
                  $.tmpl(templateString , {}).appendTo( "#content" );
@@ -156,11 +161,11 @@ function handleCommand(command) {
              
              else {
                  var listItems = "";
-                 for (var item in json[keyword][entry].description)
+                 for (var item in json["all"][entry].description)
                  {
-                     listItems = listItems + '<li>' + json[keyword][entry].description[item] + '</li>';
+                     listItems = listItems + '<li>' + json["all"][entry].description[item] + '</li>';
                  }
-                 var templateString = '<div class="entry_even"><div class="col-md-6"><div class="description"><h1 class="header-description">' + json[keyword][entry].title + '</h1><h3 class="sub-description">' + json[keyword][entry].miniDescription + '</h3><div class="divider"></div><p class="item-description"><ul>' + listItems + '</ul></p></div></div><div class="col-md-6"><img class="img-desc" src="' + json[keyword][entry].img + '"></div></div>';
+                 var templateString = '<div class="entry_even"><div class="col-md-6"><div class="description"><h1 class="header-description">' + json["all"][entry].title + '</h1><h3 class="sub-description">' + json["all"][entry].miniDescription + '</h3><div class="divider"></div><p class="item-description"><ul>' + listItems + '</ul></p></div></div><div class="col-md-6"><img class="img-desc" src="' + json["all"][entry].img + '"></div></div>';
                  
                  
                  $.tmpl(templateString , {}).appendTo( "#content" );
@@ -169,14 +174,15 @@ function handleCommand(command) {
         }
          }
       });
+     return "displaying results for " + removeSearch;         
     }
     if (firstWord == "show") {
-       generateHTML(command.split(" ")[1], command.split(" ")[1].toUpperCase());         
+       generateHTML(command.split(" ")[1], command.split(" ")[1].toUpperCase());    
+       return "showing " + command.split(" ")[1];    
     }
     
     return "invalid entry";
     
-    //scroll to content
 }
 
 

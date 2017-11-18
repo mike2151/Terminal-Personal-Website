@@ -7,6 +7,15 @@
             "description": {"item": "Pursuing a B.S.E in Computer Science and a B.S in Economics"}
         },   
         
+        "entry29": {
+            "img": "images/bths.jpg",
+            "title": "Biotechnology High School",
+            "miniDescription": "2013-2017",
+            "description": {"item1": "Biotechnology-based high school",  "item2": "GPA: 97.02/100",  "item3": "Ranked as #8 in U.S. News and World Reports"}
+        },
+        
+        
+        
         "entry2": {
             "img": "images/paper.png",
             "title": "Journal of Information Assurance & Cybersecurity",
