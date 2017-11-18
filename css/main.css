@@ -37,14 +37,28 @@ body {
     margin-bottom: 1em;
 }
 
+.content-title {
+    margin-bottom: 9vh;
+    font-size: 5em;
+    line-height: 48px;
+}
 
 
 .img-desc {
-   max-height: 70vh;
-   max-width: 70vw;
+   max-height: 60vh;
+   max-width: 60vw;
    padding:1px;
    border:1px solid #111616;
    background-color:#FFF;
+   height: auto;
+   width: auto;
+}
+
+@media (max-width: 1260px) and (min-width: 990px) {
+     .img-desc {
+       max-height: 30vh;
+       max-width: 30vw;
+    }
 }
 
 .img-desc:hover{ transform: translateY(-15px); } 
