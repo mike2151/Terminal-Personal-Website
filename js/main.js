@@ -62,7 +62,7 @@ function containsSubstrings(substrings, str) {
 function handleCommand(command) {
     if (command == "help")
     {
-      var response = `For the options for a specific command, type options command-name
+      var response = `For the parameters for a specific command, type options <command name>
       "contact" - opens up an interface to contact me
       "clear" - clears the terminal
       "download" - downloads a file
@@ -73,6 +73,45 @@ function handleCommand(command) {
       `;    
       return response
     }
+    else if (command == "options contact")
+    {
+        return "no additional parameters"
+    }
+    else if (command == "options clear")
+    {
+        return "no additional parameters"
+    }
+    
+    else if (command == "options download")
+    {
+        return "download resume - downloads my resume"
+    }
+    
+    else if (command == "options reset")
+    {
+        return "no additional parameters"
+    }
+    
+    else if (command == "options search")
+    {
+        return "search <query> - searches the content for words contained in query"
+    }
+    else if (command == "options show")
+    {
+      var response = `Different sections that can be shown:
+      "show all" - all the content (default)
+      "show education" 
+      "show publications" 
+      "show awards" 
+      "show programming" - all programming expierence
+      "show activities" 
+      "show skills" 
+      `;    
+      return response
+    }
+    
+    
+    
     else if (command == "contact") 
     {
         window.location.href = "mailto:miabelar@wharton.upenn.edu";
@@ -80,7 +119,7 @@ function handleCommand(command) {
     }
     else if (command == "download resume")
     {
-        $.fileDownload('some/file.pdf')
+        $.fileDownload('public/resume.pdf')
         .done(function () { return "download successful"; })
         .fail(function () { return "an error occured in downloading my resume" });
     }

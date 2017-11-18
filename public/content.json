@@ -13,7 +13,7 @@
             "miniDescription": "2016",
             "description": {
                 "item1": "Project: A Comparative Analysis of Various Security Applications for the Android  Operating System",  
-                "item2": "URL: <a href='http://ibimapublishing.com/articles/JIACS/2016/955268'>http://ibimapublishing.com/articles/JIACS/2016/955268</a>"
+                "item2": "URL: <a target='_blank' href='http://ibimapublishing.com/articles/JIACS/2016/955268'>http://ibimapublishing.com/articles/JIACS/2016/955268</a>"
             }
         },
         
@@ -23,7 +23,7 @@
             "miniDescription": "2015",
             "description": {
                  "item": "Introductory tutorial book for web programming in HTML", "item2": "Over 50,000 downloads", 
-"item3": "Spanish Translation also available", "item4": "More information: <a href='https://goo.gl/v0ISLs'>https://goo.gl/v0ISLs</a>" }
+"item3": "Spanish Translation also available", "item4": "More information: <a target='_blank' href='https://goo.gl/v0ISLs'>https://goo.gl/v0ISLs</a>" }
         },
         
         "entry4": {
@@ -31,21 +31,21 @@
             "title": "Mobile Application Ideation",
             "miniDescription": "2017",
             "description": {
-                 "item": "Book describing the art of generating successful mobile application ideas", "item2": "URL: <a href='https://www.amazon.com/dp/B075177K6M'>https://www.amazon.com/dp/B075177K6M</a>" }
+                 "item": "Book describing the art of generating successful mobile application ideas", "item2": "URL: <a target='_blank' href='https://www.amazon.com/dp/B075177K6M'>https://www.amazon.com/dp/B075177K6M</a>" }
         },
         "entry5": {
             "img": "images/epa.png",
             "title": "The President’s Environmental Youth Award",
             "miniDescription": "2016",
             "description": {
-                 "item": "Received national award from the Environmental Protection Agency for combating deforestation in the Pine Barrens with more efficient vertical greenhouses", "item2": "White House Blog: <a href='https://goo.gl/pVPk1k'>https://goo.gl/pVPk1k</a>" }
+                 "item": "Received national award from the Environmental Protection Agency for combating deforestation in the Pine Barrens with more efficient vertical greenhouses", "item2": "White House Blog: <a target='_blank' href='https://goo.gl/pVPk1k'>https://goo.gl/pVPk1k</a>" }
         },
         "entry6": {
             "img": "images/this.png",
             "title": "Speaker at the June 2017 Holmdel Idea Summit",
             "miniDescription": "2017",
             "description": {
-                 "item": "Spoke about Claytronics and programmable matter to over 300 researchers, entrepreneurs, and engineers", "item2": "Event website: <a href='http://theholmdelideasummit.com'>http://theholmdelideasummit.com</a>" }
+                 "item": "Spoke about Claytronics and programmable matter to over 300 researchers, entrepreneurs, and engineers", "item2": "Event website: <a target='_blank' href='http://theholmdelideasummit.com'>http://theholmdelideasummit.com</a>" }
         },
         
         "entry7": {
@@ -61,14 +61,14 @@
             "title": "Technology Students of America State Conference 1st Place Webmaster Competitio",
             "miniDescription": "2015",
             "description": {
-                 "item": "Programmed website to raise awareness and offer solutions for electronic waste", "item2": "URL: <a href='http://dangersofewaste.byethost7.com'>http://dangersofewaste.byethost7.com</a>"}
+                 "item": "Programmed website to raise awareness and offer solutions for electronic waste", "item2": "URL: <a target='_blank' href='http://dangersofewaste.byethost7.com'>http://dangersofewaste.byethost7.com</a>"}
         },
         "entry9": {
             "img": "images/android.png",
             "title": "Android App Developer",
             "miniDescription": "2014-present",
             "description": {
-                 "item": "190,000+ cumulative downloads ", "item2": "Published over 20 Android Applications: <a href='https://goo.gl/23jdGk'>https://goo.gl/23jdGk</a>"}
+                 "item": "190,000+ cumulative downloads ", "item2": "Published over 20 Android Applications: <a target='_blank' href='https://goo.gl/23jdGk'>https://goo.gl/23jdGk</a>"}
         },
         
         "entry10": {
@@ -76,7 +76,7 @@
             "title": "Windows App Developer",
             "miniDescription": "2014-present",
             "description": {
-                 "item": "100,000+ cumulative downloads ", "item2": "Published over six applications", "item3": "All applications: <a href='https://goo.gl/MaqzMN'>https://goo.gl/MaqzMN</a>"}
+                 "item": "100,000+ cumulative downloads ", "item2": "Published over six applications", "item3": "All applications: <a target='_blank' href='https://goo.gl/MaqzMN'>https://goo.gl/MaqzMN</a>"}
         },
         
         "entry11": {
@@ -84,7 +84,7 @@
             "title": "Type Melee",
             "miniDescription": "2016-present",
             "description": {
-                 "item": "<a href='http://typemelee.com'>http://typemelee.com</a>", "item2": "Online competitive typing game"}
+                 "item": "<a target='_blank' href='http://typemelee.com'>http://typemelee.com</a>", "item2": "Online competitive typing game"}
         },
         
         "entry12": {
@@ -100,7 +100,7 @@
             "title": "Programming Tutorial YouTube Channel",
             "miniDescription": "2015-present",
             "description": {
-                 "item": "View at <a href='https://goo.gl/q76gzH'>https://goo.gl/q76gzH</a>", "item2": "Over 25 tutorials published on various languages"}
+                 "item": "View at <a target='_blank' href='https://goo.gl/q76gzH'>https://goo.gl/q76gzH</a>", "item2": "Over 25 tutorials published on various languages"}
         },
         
         "entry14": {
@@ -108,7 +108,7 @@
             "title": "Processing Animations YouTube Channel",
             "miniDescription": "2017-present",
             "description": {
-                 "item": "View at <a href='https://goo.gl/aapPDQ'>https://goo.gl/aapPDQ</a>", "item2": "Videos of my animations created in Processing"}
+                 "item": "View at <a target='_blank' href='https://goo.gl/aapPDQ'>https://goo.gl/aapPDQ</a>", "item2": "Videos of my animations created in Processing"}
         },
         
         "entry15": {
@@ -116,7 +116,7 @@
             "title": "WormTraq",
             "miniDescription": "Creator: 2016-present",
             "description": {
-                 "item": "View at <a href='http://wormtraq.herokuapp.com'>http://wormtraq.herokuapp.com</a>", "item2": "WormTraq is an open source online web application which is able to detect and measure Caenorhabditis elegans"}
+                 "item": "View at <a target='_blank' href='http://wormtraq.herokuapp.com'>http://wormtraq.herokuapp.com</a>", "item2": "WormTraq is an open source online web application which is able to detect and measure Caenorhabditis elegans"}
         },
         
         "entry16": {
@@ -124,14 +124,14 @@
             "title": "By The Digits",
             "miniDescription": "Creator: 2015-present",
             "description": {
-                 "item": "Read more about it at <a href='http://www.bythedigits.com'>http://www.bythedigits.com</a>", "item2": "News website that searches the internet for news articles and refines them to remove the bias by only providing numbers and statistics"}
+                 "item": "Read more about it at <a target='_blank' href='http://www.bythedigits.com'>http://www.bythedigits.com</a>", "item2": "News website that searches the internet for news articles and refines them to remove the bias by only providing numbers and statistics"}
         },
         "entry17": {
             "img": "images/stem.png",
             "title": "Stem Scholar in the Governor’s Stem Scholars program",
             "miniDescription": "2015-2016",
             "description": {
-                 "item": "One of 60 students in New Jersey who toured New Jersey, learned about opportunities in science, technology, engineering, and mathematics, and communicated with state leaders in STEM.", "item2": "Article in The Monmouth Journal about my involvement in the program: <a href='https://goo.gl/Tt8u9F'>https://goo.gl/Tt8u9F</a>"}
+                 "item": "One of 60 students in New Jersey who toured New Jersey, learned about opportunities in science, technology, engineering, and mathematics, and communicated with state leaders in STEM.", "item2": "Article in The Monmouth Journal about my involvement in the program: <a target='_blank' href='https://goo.gl/Tt8u9F'>https://goo.gl/Tt8u9F</a>"}
         },
         
         "entry18": {
@@ -139,7 +139,7 @@
             "title": "Penn Labs",
             "miniDescription": "2017-present",
             "description": {
-                 "item": "Club that develops software for the University of Pennsylvania ", "item2": "Android developer working on new features for Penn Mobile (an app that helps students manage campus life): <a href='https://goo.gl/LQ5r5p'>https://goo.gl/LQ5r5p</a>"}
+                 "item": "Club that develops software for the University of Pennsylvania ", "item2": "Android developer working on new features for Penn Mobile (an app that helps students manage campus life): <a target='_blank' href='https://goo.gl/LQ5r5p'>https://goo.gl/LQ5r5p</a>"}
         },
         
         "entry19": {
@@ -147,7 +147,7 @@
             "title": "Penn Apps",
             "miniDescription": "2017-present",
             "description": {
-                 "item": "Developer for Penn’s hackathon", "item2": "Created the application portal: <a href='https://my.pennapps.com'>https://my.pennapps.com</a>", "item3": "Created the landing page for PennApps 17: <a href='http://2018w.pennapps.com'>http://2018w.pennapps.com</a>"}
+                 "item": "Developer for Penn’s hackathon", "item2": "Created the application portal: <a target='_blank' href='https://my.pennapps.com'>https://my.pennapps.com</a>", "item3": "Created the landing page for PennApps 17: <a target='_blank' href='http://2018w.pennapps.com'>http://2018w.pennapps.com</a>"}
         },
         
         "entry20": {
@@ -191,7 +191,7 @@
             "miniDescription": "2016",
             "description": {
                 "item1": "Project: A Comparative Analysis of Various Security Applications for the Android  Operating System",  
-                "item2": "URL: <a href='http://ibimapublishing.com/articles/JIACS/2016/955268'>http://ibimapublishing.com/articles/JIACS/2016/955268</a>"}
+                "item2": "URL: <a target='_blank' href='http://ibimapublishing.com/articles/JIACS/2016/955268'>http://ibimapublishing.com/articles/JIACS/2016/955268</a>"}
         },
         
         "entry2": {
@@ -200,7 +200,7 @@
             "miniDescription": "2015",
             "description": {
                 "item1": "Project: The Application and Optimization of Metal Reflectors to Vertical Greenhouses to Increase Plant Growth and Health",  
-                "item2": "URL: <a href='http://www.bowenpublishing.com/jaeb/paperInfo.aspx?PaperID=16664'>http://www.bowenpublishing.com/jaeb/paperInfo.aspx?PaperID=16664</a>"}
+                "item2": "URL: <a target='_blank' href='http://www.bowenpublishing.com/jaeb/paperInfo.aspx?PaperID=16664'>http://www.bowenpublishing.com/jaeb/paperInfo.aspx?PaperID=16664</a>"}
         },
         
         "entry3": {
@@ -209,7 +209,7 @@
             "miniDescription": "2015",
             "description": {
                  "item": "Introductory tutorial book for web programming in HTML", "item2": "Over 50,000 downloads", 
-"item3": "Spanish Translation also available", "item4": "More information: <a href='https://goo.gl/v0ISLs'>https://goo.gl/v0ISLs</a>" }
+"item3": "Spanish Translation also available", "item4": "More information: <a target='_blank' href='https://goo.gl/v0ISLs'>https://goo.gl/v0ISLs</a>" }
         },
         
         "entry4": {
@@ -217,7 +217,7 @@
             "title": "Mobile Application Ideation",
             "miniDescription": "2017",
             "description": {
-                 "item": "Book describing the art of generating successful mobile application ideas", "item2": "URL: <a href='https://www.amazon.com/dp/B075177K6M'>https://www.amazon.com/dp/B075177K6M</a>" }
+                 "item": "Book describing the art of generating successful mobile application ideas", "item2": "URL: <a target='_blank' href='https://www.amazon.com/dp/B075177K6M'>https://www.amazon.com/dp/B075177K6M</a>" }
         }
     },
     
@@ -227,14 +227,14 @@
             "title": "The President’s Environmental Youth Award",
             "miniDescription": "2016",
             "description": {
-                 "item": "Received national award from the Environmental Protection Agency for combating deforestation in the Pine Barrens with more efficient vertical greenhouses", "item2": "White House Blog: <a href='https://goo.gl/pVPk1k'>https://goo.gl/pVPk1k</a>" }
+                 "item": "Received national award from the Environmental Protection Agency for combating deforestation in the Pine Barrens with more efficient vertical greenhouses", "item2": "White House Blog: <a target='_blank' href='https://goo.gl/pVPk1k'>https://goo.gl/pVPk1k</a>" }
         },
         "entry6": {
             "img": "images/this.png",
             "title": "Speaker at the June 2017 Holmdel Idea Summit",
             "miniDescription": "2017",
             "description": {
-                 "item": "Spoke about Claytronics and programmable matter to over 300 researchers, entrepreneurs, and engineers", "item2": "Event website: <a href='http://theholmdelideasummit.com'>http://theholmdelideasummit.com</a>" }
+                 "item": "Spoke about Claytronics and programmable matter to over 300 researchers, entrepreneurs, and engineers", "item2": "Event website: <a target='_blank' href='http://theholmdelideasummit.com'>http://theholmdelideasummit.com</a>" }
         },
         
         "entry7": {
@@ -250,7 +250,7 @@
             "title": "Technology Students of America State Conference 1st Place Webmaster Competition",
             "miniDescription": "2015",
             "description": {
-                 "item": "Programmed website to raise awareness and offer solutions for electronic waste", "item2": "URL: <a href='http://dangersofewaste.byethost7.com'>http://dangersofewaste.byethost7.com</a>"}
+                 "item": "Programmed website to raise awareness and offer solutions for electronic waste", "item2": "URL: <a target='_blank' href='http://dangersofewaste.byethost7.com'>http://dangersofewaste.byethost7.com</a>"}
         }
         
         
@@ -261,7 +261,7 @@
             "title": "Android App Developer",
             "miniDescription": "2014-present",
             "description": {
-                 "item": "190,000+ cumulative downloads ", "item2": "Published over 20 Android Applications: <a href='https://goo.gl/23jdGk'>https://goo.gl/23jdGk</a>"}
+                 "item": "190,000+ cumulative downloads ", "item2": "Published over 20 Android Applications: <a target='_blank' href='https://goo.gl/23jdGk'>https://goo.gl/23jdGk</a>"}
         },
         
         "entry10": {
@@ -269,7 +269,7 @@
             "title": "Windows App Developer",
             "miniDescription": "2014-present",
             "description": {
-                 "item": "100,000+ cumulative downloads ", "item2": "Published over six applications", "item3": "All applications: <a href='https://goo.gl/MaqzMN'>https://goo.gl/MaqzMN</a>"}
+                 "item": "100,000+ cumulative downloads ", "item2": "Published over six applications", "item3": "All applications: <a target='_blank' href='https://goo.gl/MaqzMN'>https://goo.gl/MaqzMN</a>"}
         },
         
         "entry11": {
@@ -277,7 +277,7 @@
             "title": "Type Melee",
             "miniDescription": "2016-present",
             "description": {
-                 "item": "<a href='http://typemelee.com'>http://typemelee.com</a>", "item2": "Online competitive typing game"}
+                 "item": "<a target='_blank' href='http://typemelee.com'>http://typemelee.com</a>", "item2": "Online competitive typing game"}
         },
         
         "entry12": {
@@ -293,7 +293,7 @@
             "title": "Programming Tutorial YouTube Channel",
             "miniDescription": "2015-present",
             "description": {
-                 "item": "View at <a href='https://goo.gl/q76gzH'>https://goo.gl/q76gzH</a>", "item2": "Over 25 tutorials published on various languages"}
+                 "item": "View at <a target='_blank' href='https://goo.gl/q76gzH'>https://goo.gl/q76gzH</a>", "item2": "Over 25 tutorials published on various languages"}
         },
         
         "entry14": {
@@ -301,7 +301,7 @@
             "title": "Processing Animations YouTube Channel",
             "miniDescription": "2017-present",
             "description": {
-                 "item": "View at <a href='https://goo.gl/aapPDQ'>https://goo.gl/aapPDQ</a>", "item2": "Videos of my animations created in Processing"}
+                 "item": "View at <a target='_blank' href='https://goo.gl/aapPDQ'>https://goo.gl/aapPDQ</a>", "item2": "Videos of my animations created in Processing"}
         },
         
         "entry15": {
@@ -309,7 +309,7 @@
             "title": "WormTraq",
             "miniDescription": "Creator: 2016-present",
             "description": {
-                 "item": "View at <a href='http://wormtraq.herokuapp.com'>http://wormtraq.herokuapp.com</a>", "item2": "WormTraq is an open source online web application which is able to detect and measure Caenorhabditis elegans"}
+                 "item": "View at <a target='_blank' href='http://wormtraq.herokuapp.com'>http://wormtraq.herokuapp.com</a>", "item2": "WormTraq is an open source online web application which is able to detect and measure Caenorhabditis elegans"}
         },
         
         "entry16": {
@@ -317,7 +317,7 @@
             "title": "By The Digits",
             "miniDescription": "Creator: 2015-present",
             "description": {
-                 "item": "Read more about it at <a href='http://www.bythedigits.com'>http://www.bythedigits.com</a>", "item2": "News website that searches the internet for news articles and refines them to remove the bias by only providing numbers and statistics"}
+                 "item": "Read more about it at <a target='_blank' href='http://www.bythedigits.com'>http://www.bythedigits.com</a>", "item2": "News website that searches the internet for news articles and refines them to remove the bias by only providing numbers and statistics"}
         }
         
     },
@@ -335,7 +335,7 @@
             "title": "Penn Labs",
             "miniDescription": "2017-present",
             "description": {
-                 "item": "Club that develops software for the University of Pennsylvania ", "item2": "Android developer working on new features for Penn Mobile (an app that helps students manage campus life): <a href='https://goo.gl/LQ5r5p'>https://goo.gl/LQ5r5p</a>"}
+                 "item": "Club that develops software for the University of Pennsylvania ", "item2": "Android developer working on new features for Penn Mobile (an app that helps students manage campus life): <a target='_blank' href='https://goo.gl/LQ5r5p'>https://goo.gl/LQ5r5p</a>"}
         },
         
         "entry19": {
@@ -343,7 +343,7 @@
             "title": "Penn Apps",
             "miniDescription": "2017-present",
             "description": {
-                 "item": "Developer for Penn’s hackathon", "item2": "Created the application portal: <a href='https://my.pennapps.com'>https://my.pennapps.com</a>", "item3": "Created the landing page for PennApps 17: <a href='http://2018w.pennapps.com'>http://2018w.pennapps.com</a>"}
+                 "item": "Developer for Penn’s hackathon", "item2": "Created the application portal: <a target='_blank' href='https://my.pennapps.com'>https://my.pennapps.com</a>", "item3": "Created the landing page for PennApps 17: <a target='_blank' href='http://2018w.pennapps.com'>http://2018w.pennapps.com</a>"}
         },
         
         "entry20": {
