@@ -28,7 +28,7 @@
             "img": "images/bths.jpg",
             "title": "Biotechnology High School",
             "miniDescription": "2013-2017",
-            "description": 'Biotechnology-based high school \n GPA: 97.02/100 \n Ranked as #8 in U.S. News and World Reports'
+            "description": "Biotechnology-based high school \n GPA: 97.02/100 \n Ranked as #8 in U.S. News and World Reports"
         }
     },
     
@@ -38,6 +38,6 @@
             "title": "Journal of Information Assurance & Cybersecurity",
             "miniDescription": "2016",
             "description": "Project: A Comparative Analysis of Various Security Applications for the Android  Operating System \n URL: http://ibimapublishing.com/articles/JIACS/2016/955268/"
-        },
+        }
     }
 }
