@@ -15,42 +15,59 @@ function generateHTML(keyword, title) {
          var state_counter = 0;
          for(var entry in json[keyword]) {
              if (state_counter % 2 == 0) {
-                 $.tmpl( '<div class="entry_odd"> \
+                 var listItems = "";
+                 for (var item in json[keyword][entry].description)
+                 {
+                     listItems = listItems + '<li>' + json[keyword][entry].description[item] + '</li>';
+                 }
+                 var templateString = '<div class="entry_even"> \
               <div class="col-md-6">\
                   <img class="img-desc" src="' + json[keyword][entry].img + '">\
-              </div>\
+              </div> \
               <div class="col-md-6">\
                   <div class="description">\
                     <h1 class="header-description">' + json[keyword][entry].title + '</h1>\
                     <h3 class="sub-description">'+ json[keyword][entry].miniDescription + '</h3>\
                     <div class="divider"></div>  \
                     <p class="item-description">\
-                      <ul>\
-                        <li>' + json[keyword][entry].description + '</li>\
-                      </ul>  \
+                      <ul>\'
+                        + listItems +
+                      '</ul>  \
                     </p>  \
                   </div>\
               </div>\
-          </div>', {}).appendTo( "#content" );
+              
+          </div>';
+                 
+                 
+                 $.tmpl(templateString , {}).appendTo( "#content" );
              }
              else {
-                 $.tmpl( '<div class="entry_even"> \
+                 var listItems = "";
+                 for (var item in json[keyword][entry].description)
+                 {
+                     listItems = listItems + '<li>' + json[keyword][entry].description[item] + '</li>';
+                 }
+                 var templateString = '<div class="entry_even"> \
               <div class="col-md-6">\
                   <div class="description">\
                     <h1 class="header-description">' + json[keyword][entry].title + '</h1>\
                     <h3 class="sub-description">'+ json[keyword][entry].miniDescription + '</h3>\
                     <div class="divider"></div>  \
                     <p class="item-description">\
-                      <ul>\
-                        <li>' + json[keyword][entry].description + '</li>\
-                      </ul>  \
+                      <ul>\'
+                        + listItems +
+                      '</ul>  \
                     </p>  \
                   </div>\
               </div>\
               <div class="col-md-6">\
                   <img class="img-desc" src="' + json[keyword][entry].img + '">\
               </div>\
-          </div>', {}).appendTo( "#content" );
+          </div>';
+                 
+                 
+                 $.tmpl(templateString , {}).appendTo( "#content" );
              }
              state_counter = state_counter + 1;
         }
@@ -120,45 +137,64 @@ function handleCommand(command) {
          for(var entry in json["all"]) {
              if (containsSubstrings(query, json[keyword][entry].title) || containsSubstrings(query, json[keyword][entry].miniDescription) || containsSubstrings(query, json[keyword][entry].description)) {
              if (state_counter % 2 == 0) {
-                 $.tmpl( '<div class="entry_odd"> \
+                 var listItems = "";
+                 for (var item in json[keyword][entry].description)
+                 {
+                     listItems = listItems + '<li>' + json[keyword][entry].description[item] + '</li>';
+                 }
+                 var templateString = '<div class="entry_even"> \
               <div class="col-md-6">\
                   <img class="img-desc" src="' + json[keyword][entry].img + '">\
-              </div>\
+              </div> \
               <div class="col-md-6">\
                   <div class="description">\
                     <h1 class="header-description">' + json[keyword][entry].title + '</h1>\
                     <h3 class="sub-description">'+ json[keyword][entry].miniDescription + '</h3>\
                     <div class="divider"></div>  \
                     <p class="item-description">\
-                      <ul>\
-                        <li>' + json[keyword][entry].description + '</li>\
-                      </ul>  \
+                      <ul>\'
+                        + listItems +
+                      '</ul>  \
                     </p>  \
                   </div>\
               </div>\
-          </div>', {}).appendTo( "#content" );
+              
+          </div>';
+                 
+                 
+                 $.tmpl(templateString , {}).appendTo( "#content" );
              }
+             
              else {
-                 $.tmpl( '<div class="entry_even"> \
+                 var listItems = "";
+                 for (var item in json[keyword][entry].description)
+                 {
+                     listItems = listItems + '<li>' + json[keyword][entry].description[item] + '</li>';
+                 }
+                 var templateString = '<div class="entry_even"> \
               <div class="col-md-6">\
                   <div class="description">\
                     <h1 class="header-description">' + json[keyword][entry].title + '</h1>\
                     <h3 class="sub-description">'+ json[keyword][entry].miniDescription + '</h3>\
                     <div class="divider"></div>  \
                     <p class="item-description">\
-                      <ul>\
-                        <li>' + json[keyword][entry].description + '</li>\
-                      </ul>  \
+                      <ul>\'
+                        + listItems +
+                      '</ul>  \
                     </p>  \
                   </div>\
               </div>\
               <div class="col-md-6">\
                   <img class="img-desc" src="' + json[keyword][entry].img + '">\
               </div>\
-          </div>', {}).appendTo( "#content" );
+          </div>';
+                 
+                 
+                 $.tmpl(templateString , {}).appendTo( "#content" );
              }
              state_counter = state_counter + 1;
         }
+         }
       }
     });
     }
