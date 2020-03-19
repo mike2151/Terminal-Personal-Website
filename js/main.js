@@ -53,7 +53,7 @@ jQuery(function($, undefined) {
         this.echo(handleCommand(command.toLowerCase()));
 }, { greetings: "Welcome To My Website. Type 'help' for the list of commands",
         name: 'terminal',
-        height: 100,
+        height: 200,
         prompt: '> '});
 });
 
