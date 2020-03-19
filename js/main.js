@@ -16,7 +16,6 @@ $(function() {
 function generateHTML(keyword, title) {
     var jsonURL = "https://raw.githubusercontent.com/mike2151/Terminal-Personal-Website/master/public/content.json";
     $.getJSON(jsonURL, function(json) {
-        $("#content").empty();
         $( "#content" ).append("<center><h1 class='content-title'>" + title + "</h1></center>");
          var state_counter = 0;
          for(var entry in json[keyword]) {
