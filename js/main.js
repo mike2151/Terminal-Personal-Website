@@ -1,5 +1,10 @@
 //initial populate
-generateHTML("all", "All Content");
+generateHTML("education", "Education");
+generateHTML("experience", "Experience");
+generateHTML("personal_projects", "Personal Projects");
+generateHTML("publications", "Publications");
+generateHTML("distinctions", "Speaking Engagements/Distinctions");
+generateHTML("skills", "Programming Languages");
 
 $(function() {
   $('#nav_to_content').on('click', function(e) {
@@ -9,7 +14,8 @@ $(function() {
 });
 
 function generateHTML(keyword, title) {
-    $.getJSON("https://raw.githubusercontent.com/mike2151/Terminal-Personal-Website/master/public/content.json", function(json) {
+    var jsonURL = "https://raw.githubusercontent.com/mike2151/Terminal-Personal-Website/master/public/content.json";
+    $.getJSON(jsonURL, function(json) {
         $("#content").empty();
         $( "#content" ).append("<center><h1 class='content-title'>" + title + "</h1></center>");
          var state_counter = 0;
